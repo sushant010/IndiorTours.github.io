@@ -1,0 +1,144 @@
+body {
+  background-image: url('image/img.jpg');
+  background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.icon{
+  height: 140px;
+  width: 140px;
+  justify-content: flex-start;
+  margin-right: 38%;
+  margin-bottom: 8%;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    padding:1%;
+}
+
+.navbar{
+  margin-bottom: 15%;
+    list-style-type: none;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar li {
+    margin-right: 3.5rem;
+    font-size: 22px;
+    font-family: 'Varela Round', sans-serif;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #3F3B6C
+}
+
+#lo{
+    text-decoration: none;
+    background-color: #2BD9FE;
+    color:white;
+    font-family: 'Varela Round', sans-serif;
+    border: none;
+    padding:10px 20px;
+    border-radius: 5%;
+    font-size: 16px;
+}
+.info h1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 50px;
+    color: #F9F9F9;
+
+    margin :0;
+    margin-right: 8%;
+}
+.sub{
+
+    margin-top: 1%;
+
+}
+
+.info p{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+    color: #EAEAEA;
+    font-size: 25px;
+    margin-right: 3%;
+}
+
+.but{
+
+  
+    width: 290px;
+    height: 57px;
+    border-radius: 64px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid;
+    border-color:#EAEAEA;
+    color: #EAEAEA;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 19px;
+    margin-left: 69%;
+}
+
+
+
+
+
+.container1 {
+  background: #FFFFFF;
+  width: 900px;
+  height: 650px;
+  margin: 5% auto;
+  position: relative;
+}
+ .map {
+  width: 45%;
+  float: left;
+}
+ .contact-form {
+  width: 53%;
+  margin-left: 2%;
+  float: left;
+}
+.container1 .contact-form .title {
+  font-size: 2.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #242424;
+  margin: 5% 8%;
+}
+.container1 .contact-form .subtitle {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0 4% 5% 8%;
+}
+.container1 .contact-form input,
+.container1 .contact-form textarea {
+  width: 330px;
+  padding: 3%;
+  margin: 2% 8%;
+  color: #242424;
+  border: 1px solid #B7B7B7;
+}
+.container1 .contact-form input::placeholder,
+.container1 .contact-form textarea::placeholder {
+  color: #242424;
+}
+.container1 .contact-form .btn-send {
+  background: #A383C9;
+  width: 180px;
+  height: 60px;
+  color: #FFFFFF;
+  font-weight: 700;
+  margin: 2% 8%;
+  border: none;
+}
